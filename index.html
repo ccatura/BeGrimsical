@@ -34,17 +34,40 @@
         <div class="popup-trans-bg" id="social">
             <div class="floating-link-box">
                 <div class="flb-title">Social</div>
-                <div class="flb-link"><a href="https://www.instagram.com/begrimsical/">Instagram</a></div>
-                <div class="flb-link"><a href="https://www.tiktok.com/@begrimsical">TikTok</a></div>
-                <div class="flb-link"><a href="https://www.youtube.com/@BeGrimsical">YouTube</a></div>
-                <div class="flb-link"><a href="https://substack.com/@grimsical">SubStack</a></div>
+                <div class="flb-link"><a href="https://www.instagram.com/begrimsical/"><img class="icon-small" src="./images/instagram.png" alt=""><span>Instagram</span></a></div>
+                <div class="flb-link"><a href="https://www.tiktok.com/@begrimsical"><img class="icon-small" src="./images/tiktok.jpg" alt=""><span>TikTok</span></a></div>
+                <div class="flb-link"><a href="https://www.youtube.com/@BeGrimsical"><img class="icon-small" src="./images/youtube.png" alt=""><span>YouTube</span></a></div>
+                <div class="flb-link"><a href="https://substack.com/@grimsical"><img class="icon-small" src="./images/substack.png" alt=""><span>SubStack</span></a></div>
             </div>
         </div>
 
         <div class="popup-trans-bg" id="contact">
             <div class="floating-link-box">
                 <div class="flb-title">Contact</div>
-                <div class="flb-link"><a href="https://www.instagram.com/begrimsical/">Instagram</a></div>
+
+                
+                        <form target="_blank" method="post" action="./email.php">
+                            <input type="hidden" name="subject" value="Email from Portfolio Page">
+                            <input type="hidden" name="good-to-go" value="false">
+                            <div class="email-modal-container" id="email-modal">
+                                <div class="email-modal-window">
+                                    <div class="email-modal-title-bar"><p>Email Me</p><p class="close-button" title="Close" id="close-email-modal">&#10005;</p></div>
+                                    <p>Name</p>
+                                    <input type="text" name="name" placeholder="Your Name" required>
+                                    <p>Email</p>
+                                    <input  type="email" name="email" placeholder="Your Email Address" required>
+                                    <p>Message</p>
+                                    <textarea name="message" placeholder="Your message here." required></textarea>
+                                    <div class="email-modal-buttons">
+                                        <div style="text-align:center;">Before sending, uncheck this box.<br><input type="checkbox" id="good-to-go" checked></div>
+                                        <input id="send-email" type="submit" name="submit" value="Send" style="font-size:20px;padding:5px;margin-top:5px;" disabled>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+
+                </div>
                 <div class="flb-link"><a href="https://www.tiktok.com/@begrimsical">TikTok</a></div>
             </div>
         </div>
