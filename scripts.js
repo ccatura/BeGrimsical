@@ -34,6 +34,7 @@ goodToGo.addEventListener('click', function() {
     }
 });
 
+
 // Clears the answers to the form once the submit button is clicked
 // clickEmailModal.addEventListener('click', function() {
 //     showEmailModal();
@@ -42,6 +43,7 @@ goodToGo.addEventListener('click', function() {
 //     emailMessage[0].value = '';
 //     goodToGo.checked = true;
 // });
+
 
 socialLinksChilden.forEach((child) => {
     child.addEventListener('click', (event) => {
@@ -62,4 +64,5 @@ socialLinksParents.forEach((parent) => {
         parent.style.display = "none";
     });
 });
+
 

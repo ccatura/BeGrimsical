@@ -214,6 +214,7 @@ For inner content layout inside body-container
 
 
 
+
 @media screen and (max-width: 1000px) {
     .title {
         justify-content: center;
