@@ -23,6 +23,16 @@ a {
     text-decoration: none;
 }
 
+.outer-container {
+    border: var(--frame-borders) solid green;
+    width: 80%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
 .header-container {
     border: var(--frame-borders) solid red;
     margin: .5em;
@@ -84,6 +94,7 @@ a {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    background-color: rgba(26, 138, 230, .5);
 }
 
 .big-image {
@@ -173,5 +184,15 @@ a {
 
     .main-links {
         justify-content: center;
+        gap: 10px;
+    }
+
+    .title-image {
+        max-width: 380px;
+    }
+
+    .link-box {
+        width: 75px;
+        height: 75px;
     }
 }

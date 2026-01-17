@@ -7,6 +7,23 @@ var goodToGo            = document.getElementById('good-to-go');
 var goodToGoInput       = document.getElementsByName('good-to-go');
 var sendEmailButton     = document.getElementById('send-email');
 
+
+
+var tempSwitch = document.getElementById('temp-switch');
+tempSwitch.addEventListener('click', function() {
+    // 1. Get the computed style of the root
+    const rootStyle = getComputedStyle(document.documentElement);
+    const currentBorder = rootStyle.getPropertyValue('--frame-borders');
+
+    if (currentBorder === '0px') {
+        document.documentElement.style.setProperty('--frame-borders', '1px');
+    } else {
+        document.documentElement.style.setProperty('--frame-borders', '0px');
+    }
+});
+
+
+
 goodToGo.addEventListener('click', function() {
     if (goodToGo.checked == false) {
         goodToGoInput[0].value = true;
@@ -34,7 +51,6 @@ socialLinksChilden.forEach((child) => {
 
 // Add event listeners to each top link to show corresponding popup
 topLinks.forEach((link) => {
-    console.log(link.dataset.id);
     link.addEventListener("click", function() {
         document.getElementById(link.dataset.id).style.display = "flex"; // show the popup of the clicked link with matching id
     });
