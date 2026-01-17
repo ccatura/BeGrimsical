@@ -1,6 +1,6 @@
 var socialLinksParents  = document.querySelectorAll(".popup-trans-bg");
-var socialLinksChilden  = document.querySelectorAll(".floating-link-box");
-var topLinks            = document.querySelectorAll(".link-box");
+var socialLinksChilden  = document.querySelectorAll(".floating-popup-box");
+var topLinks            = document.querySelectorAll(".links-box");
 
 // Email elements
 var goodToGo            = document.getElementById('good-to-go');

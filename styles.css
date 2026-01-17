@@ -86,7 +86,8 @@ a {
     gap: 20px;
 }
 
-.link-box {
+/* Each link box in the header */
+.links-box {
     border: var(--frame-borders) solid green;
     width: 100px;
     height: 100px;
@@ -107,6 +108,7 @@ a {
     margin-right: 5px;
 }
 
+/* Popup translucent background behind the floating link box */
 .popup-trans-bg {
     display: none;
     background-color: rgba(0, 0, 0, 0.1);
@@ -118,7 +120,7 @@ a {
     bottom: 0;
 }
 
-.floating-link-box {
+.floating-popup-box {
     border: var(--frame-borders) solid orange;
     min-width: 300px;
     max-width: 90%;
@@ -159,11 +161,51 @@ a {
     justify-content: center;
 }
 
-/* #social-links {
-    display: none;
-} */
+/*
+For inner content layout inside body-container
+*/
+.inner-content {
+    border: var(--frame-borders) solid orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* gap: 20px; */
+    width: 100%;
+}
 
+.inner-content-title {
+    border: var(--frame-borders) solid purple;
+    font-size: 2em;
+    font-weight: bold;
+    width: 100%;
+}
 
+.inner-content-subtitle {
+    border: var(--frame-borders) solid blue;
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.inner-content-centered {
+    border: var(--frame-borders) solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.inner-content-left-aligned {
+    border: var(--frame-borders) solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
 
 
 
@@ -191,8 +233,12 @@ a {
         max-width: 380px;
     }
 
-    .link-box {
+    .links-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 75px;
         height: 75px;
+        text-align: center;
     }
 }

@@ -11,19 +11,26 @@
     <div class="outer-container">
         <div class="header-container">
 
-            <div class="title"><a><img class="title-image" src="./images/main_logo_001.png" alt="Be Grimsical!" id="temp-switch"></a></div>
+            <div class="title">
+                <a><img class="title-image" src="./images/main_logo_001.png" alt="Be Grimsical!" id="temp-switch"></a>
+            </div>
             <div class="main-links">
-                <!-- class must be link-box and data-id must correspond with the popup-trans-bg's ID -->
-                <div class="link-box" data-id="projects">Projects</div>
-                <div class="link-box" data-id="store">Store</div>
-                <div class="link-box" data-id="contact">Contact</div>
-                <div class="link-box" data-id="social">Social</div>
+                <!-- class must be 'links-box' and data-id must correspond with the popup-trans-bg's ID -->
+                <div class="links-box" data-id="projects">Projects</div>
+                <div class="links-box" data-id="store">Store</div>
+                <div class="links-box" data-id="contact">Contact</div>
+                <div class="links-box" data-id="social">Social Links</div>
             </div>
 
         </div>
         <div class="body-container">
-            <h2>Future home to Grimsical Studios</h2>
-            <img class="big-image" src="./images/book-cover-001.jpg" alt="">
+            <div class="inner-content">
+                <div class="inner-content-title">Future Home of Grimsical Studios</div>
+                <div class="inner-content-subtitle">January 17, 2026</div>
+                <div class="inner-content-centered">
+                    <img class="big-image" src="./images/book-cover-001.jpg" alt="">
+                </div>
+            </div>
         </div>
         <div class="footer-container">
 
@@ -31,10 +38,10 @@
 
 
 
-        <!-- popup-trans-bg's ID must correspond with the link-box's ID (above) -->
+        <!-- popup-trans-bg's ID must correspond with the links-box's ID (above) -->
         <div class="popup-trans-bg" id="social">
-            <div class="floating-link-box">
-                <div class="flb-title">Social</div>
+            <div class="floating-popup-box">
+                <div class="flb-title">Social Links</div>
                 <div class="flb-link"><a href="https://www.instagram.com/begrimsical/"><img class="icon-small" src="./images/instagram.png" alt=""><span>Instagram</span></a></div>
                 <div class="flb-link"><a href="https://www.tiktok.com/@begrimsical"><img class="icon-small" src="./images/tiktok.png" alt=""><span>TikTok</span></a></div>
                 <div class="flb-link"><a href="https://www.youtube.com/@BeGrimsical"><img class="icon-small" src="./images/youtube.png" alt=""><span>YouTube</span></a></div>
@@ -45,7 +52,7 @@
         </div>
 
         <div class="popup-trans-bg" id="contact">
-            <div class="floating-link-box">
+            <div class="floating-popup-box">
                 <div class="flb-title">Contact</div>
 
                 
@@ -77,7 +84,7 @@
         </div>
 
         <div class="popup-trans-bg" id="projects">
-            <div class="floating-link-box">
+            <div class="floating-popup-box">
                 <div class="flb-title">Projects</div>
                 <div class="flb-link"><a href="./charlies_microscopic_universe">Charlie's Microscopic Universe</a></div>
                 <div class="flb-link"><a href="./better_off_ricky">Better Off Ricky</a></div>
@@ -85,7 +92,7 @@
         </div>
 
         <div class="popup-trans-bg" id="store">
-            <div class="floating-link-box">
+            <div class="floating-popup-box">
                 <div class="flb-title">Store</div>
                 <div class="flb-link"><a href="#">Products</a></div>
                 <div class="flb-link"><a href="#">Books</a></div>
