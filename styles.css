@@ -15,7 +15,7 @@ body {
 }
 
 :root {
-    --frame-borders: 0px;
+    --frame-borders: 1px;
 }
 
 a {
