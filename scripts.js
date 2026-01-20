@@ -9,18 +9,18 @@ var sendEmailButton     = document.getElementById('send-email');
 
 
 
-var tempSwitch = document.getElementById('temp-switch');
-tempSwitch.addEventListener('click', function() {
-    // 1. Get the computed style of the root
-    const rootStyle = getComputedStyle(document.documentElement);
-    const currentBorder = rootStyle.getPropertyValue('--frame-borders');
+// var tempSwitch = document.getElementById('temp-switch');
+// tempSwitch.addEventListener('click', function() {
+//     // 1. Get the computed style of the root
+//     const rootStyle = getComputedStyle(document.documentElement);
+//     const currentBorder = rootStyle.getPropertyValue('--frame-borders');
 
-    if (currentBorder === '0px') {
-        document.documentElement.style.setProperty('--frame-borders', '1px');
-    } else {
-        document.documentElement.style.setProperty('--frame-borders', '0px');
-    }
-});
+//     if (currentBorder === '0px') {
+//         document.documentElement.style.setProperty('--frame-borders', '1px');
+//     } else {
+//         document.documentElement.style.setProperty('--frame-borders', '0px');
+//     }
+// });
 
 
 
