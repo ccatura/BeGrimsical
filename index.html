@@ -17,11 +17,31 @@
                 <a><img class="title-image" src="./images/main_logo_001.png" alt="Be Grimsical!" id="temp-switch"></a>
             </div>
             <div class="main-links">
-                <!-- class must be 'links-box' and data-id must correspond with the popup-trans-bg's ID -->
-                <div class="links-box" data-id="projects"><img src="./images/projects.jpg" alt="Projects"></div>
-                <div class="links-box" data-id="store"><img src="./images/store.jpg" alt="Store"></div>
-                <div class="links-box" data-id="contact"><img src="./images/contact.jpg" alt="Contact"></div>
-                <div class="links-box" data-id="social"><img src="./images/links.jpg" alt="Social Links"></div>
+                <!-- class must be 'links-box-outer-contatiner' and data-id must correspond with the popup-trans-bg's ID -->
+                <div class="links-box-outer-contatiner" data-id="projects">
+                    <div class="links-box">
+                        <img src="./images/projects.jpg" alt="Projects">
+                    </div>
+                    <div class="links-font">Projects</div>
+                </div>
+                <div class="links-box-outer-contatiner" data-id="store">
+                    <div class="links-box">
+                        <img src="./images/store.jpg" alt="Store">
+                    </div>
+                    <div class="links-font">Store</div>
+                </div>
+                <div class="links-box-outer-contatiner" data-id="contact">
+                    <div class="links-box">
+                        <img src="./images/contact.jpg" alt="Contact">
+                    </div>
+                    <div class="links-font">Contact</div>
+                </div>          
+                <div class="links-box-outer-contatiner" data-id="social">
+                    <div class="links-box">
+                        <img src="./images/links.jpg" alt="Social Links">
+                    </div>
+                    <div class="links-font">Links</div>
+                </div>
             </div>
 
         </div>
@@ -40,7 +60,7 @@
 
 
 
-        <!-- popup-trans-bg's ID must correspond with the links-box's ID (above) -->
+        <!-- popup-trans-bg's ID must correspond with the links-box-outer-contatiner's ID (above) -->
         <div class="popup-trans-bg" id="social">
             <div class="floating-popup-box">
                 <div class="flb-title">Social Links</div>

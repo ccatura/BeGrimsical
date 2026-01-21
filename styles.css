@@ -14,6 +14,11 @@ body {
     align-items: center;
 }
 
+@font-face {
+  font-family: "ComicShark";
+  src: url("fonts/ComicShark-lgVE5.otf") format("truetype");
+}
+
 :root {
     --frame-borders: 0px;
 }
@@ -88,26 +93,44 @@ a {
     margin-bottom: 1em;
 }
 
+.links-box-outer-contatiner {
+    border: var(--frame-borders) solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 3px 10px 3px;
+    cursor: pointer;
+}   
+
 /* Each link box in the header */
 .links-box {
     border: var(--frame-borders) solid green;
     outline: 5px solid black;
     box-shadow: -7px 7px 10px rgb(0, 0, 0);
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
     background-color: rgba(26, 138, 230, .5);
     border-radius: 22px;
     overflow: hidden;
+    margin-bottom: 5px;
 }
 
 .links-box img {
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+.links-font {
+    font-family: 'ComicShark', sans-serif;
+    font-size: 1.2em;
+    margin-top: 5px;
+    color: rgb(255, 229, 99);
+    text-shadow: 0 0 4px #000000;
 }
 
 .big-image {
@@ -267,5 +290,13 @@ For inner content layout inside body-container
         text-align: center;
         border-radius: 10px;
         outline: 3px solid black;
+    }
+
+    .links-box-outer-contatiner {
+        padding: 00px 3px 10px 3px;
+    } 
+
+    .input-field-general {
+        max-width: 250px;
     }
 }
