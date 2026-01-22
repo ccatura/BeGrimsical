@@ -16,7 +16,7 @@ body {
 
 @font-face {
   font-family: "ComicShark";
-  src: url("fonts/ComicShark-lgVE5.otf") format("truetype");
+  src: url("fonts/ComicShark-lgVE5.otf") format("opentype");
 }
 
 :root {
