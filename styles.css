@@ -128,6 +128,7 @@ a {
 .links-font {
     font-family: 'ComicShark', sans-serif;
     font-size: 1.2em;
+    text-transform: uppercase;
     margin-top: 5px;
     color: rgb(255, 229, 99);
     text-shadow: 0 0 4px #000000;
