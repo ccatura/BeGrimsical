@@ -49,6 +49,9 @@
             <div class="inner-content">
                 <div class="inner-content-title">Future Home of Grimsical Studios</div>
                 <div class="inner-content-subtitle">January 17, 2026</div>
+                <div class="inner-content-subtitle">
+                    <iframe src="https://grimsical.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+                </div>
                 <div class="inner-content-centered">
                     <img class="big-image" src="./images/book-cover-001.jpg" alt="">
                 </div>
@@ -78,26 +81,26 @@
                 <div class="flb-title">Contact</div>
 
                 
-                        <form target="_blank" method="post" action="./email.php">
-                            <input type="hidden" name="subject" value="Email from Portfolio Page">
-                            <input type="hidden" name="good-to-go" value="false">
-                            <div class="email-modal-container" id="email-modal">
-                                <div class="email-modal-window">
-                                    <p>Name</p>
-                                    <input class="input-field-general" type="text" name="name" placeholder="Your Name" required>
-                                    <p>Email</p>
-                                    <input class="input-field-general" type="email" name="email" placeholder="Your Email Address" required>
-                                    <p>Message</p>
-                                    <textarea class="input-field-general input-textarea" name="message" placeholder="Your message here." required></textarea>
-                                    <div class="email-modal-buttons">
-                                        <div style="text-align:center;"><span>Before sending, uncheck this box. 
-                                            <input type="checkbox" id="good-to-go" checked></span>
-                                        </div>
-                                        <input id="send-email" type="submit" name="submit" value="Send" style="font-size:20px;padding:5px;margin-top:5px;" disabled>
+                    <form target="_blank" method="post" action="./email.php">
+                        <input type="hidden" name="subject" value="Email from Portfolio Page">
+                        <input type="hidden" name="good-to-go" value="false">
+                        <div class="email-modal-container" id="email-modal">
+                            <div class="email-modal-window">
+                                <p>Name</p>
+                                <input class="input-field-general" type="text" name="name" placeholder="Your Name" required data-id="clear-me">
+                                <p>Email</p>
+                                <input class="input-field-general" type="email" name="email" placeholder="Your Email Address" required data-id="clear-me">
+                                <p>Message</p>
+                                <textarea class="input-field-general input-textarea" name="message" placeholder="Your message here." required data-id="clear-me"></textarea>
+                                <div class="email-modal-buttons">
+                                    <div style="text-align:center;"><span>Before sending, uncheck this box. 
+                                        <input type="checkbox" id="good-to-go" checked></span>
                                     </div>
+                                    <input id="send-email" type="submit" name="submit" value="Send" style="font-size:20px;padding:5px;margin-top:5px;" disabled>
                                 </div>
                             </div>
-                        </form>
+                        </div>
+                    </form>
 
 
                 </div>
