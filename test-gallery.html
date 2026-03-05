@@ -28,6 +28,8 @@
                 const gallery = document.getElementById('gallery');
                 gallery.innerHTML = ''; // Clear loading text
 
+                console.log('Fetched files:', data.files); // Log the fetched files for debugging
+
                 if (data.files && data.files.length > 0) {
                     data.files.forEach(file => {
                         const container = document.createElement('div');
