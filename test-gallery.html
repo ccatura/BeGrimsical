@@ -28,7 +28,7 @@
                 const gallery = document.getElementById('gallery');
                 gallery.innerHTML = ''; // Clear loading text
 
-                console.log('Fetched files:', data.files); // Log the fetched files for debugging
+                console.log(data.files.length + ' files found'); // Log the number of files found
 
                 if (data.files && data.files.length > 0) {
                     data.files.forEach(file => {
