@@ -34,7 +34,7 @@ a {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: stretch;
 }
 
@@ -53,7 +53,7 @@ a {
     margin: .5em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     min-height: 300px;
 }
@@ -65,6 +65,7 @@ a {
     flex-direction: column; /* was row before substack iframe*/
     justify-content: space-between;
     align-items: center;
+    margin-top: auto;
     /* height: 100px; */ /* substack iframe screwed it up */
 }
 
@@ -136,6 +137,11 @@ a {
 
 .big-image {
     width: 80%;
+}
+
+.preview-panel-image {
+    width: 300px;
+    margin-bottom: 1em;
 }
 
 .icon-small {
@@ -242,6 +248,17 @@ For inner content layout inside body-container
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+
+.inner-content-gallery {
+    border: var(--frame-borders) solid red;
+    display: flex;
+    /* flex-direction: row; */
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    gap: 1em;
 }
 
 .inner-content-left-aligned {
