@@ -17,15 +17,15 @@ $mail = new PHPMailer(true);
 
 try {
     $mail->isSMTP();
-    $mail->Host         = 'smtp.titan.email';
-    $mail->SMTPAuth     = true;
-    
-    // --- NEW: USE THE VARIABLES FROM CONFIG.PHP ---
-    $mail->Username     = 'no-reply@begrimsical.com';
-    $mail->Password     = $config['smtp_pass'];
-    
+    $mail->Host = 'smtp.titan.email';
+    $mail->SMTPAuth = true;
+    $mail->Username = 'no-reply@begrimsical.com';
+    $mail->Password = $config['smtp_pass'];
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-    $mail->Port       = 465;
+    $mail->Port = 465;
+
+    $mail->SMTPDebug = 2;
+    $mail->Debugoutput = 'html';
 
     // $email = $_POST['email'];
     $email = 'no-reply@begrimsical.com';
@@ -38,7 +38,7 @@ try {
         $message .= $_POST['message'];
         
         $mail->setFrom('no-reply@begrimsical.com', 'BeGrimsical.com');
-        $mail->addAddress('begrimsical@gmail.com');
+        $mail->addAddress($email);
         $mail->addReplyTo($email, $name);
 
         $mail->isHTML(true);
