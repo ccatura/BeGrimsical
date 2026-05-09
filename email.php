@@ -24,8 +24,8 @@ try {
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port = 465;
 
-    $mail->SMTPDebug = 2;
-    $mail->Debugoutput = 'html';
+    // $mail->SMTPDebug = 2;
+    // $mail->Debugoutput = 'html';
 
     // $email = $_POST['email'];
     $email = 'no-reply@begrimsical.com';
