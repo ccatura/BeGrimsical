@@ -27,7 +27,7 @@ try {
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port       = 587;
 
-    $email = $_POST['email'];
+    $email = $_POST['no-reply@begrimsical.com'];
     $name = $_POST['name'];
     $good_to_go = $_POST['good-to-go'];
 
