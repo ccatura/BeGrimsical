@@ -38,7 +38,7 @@ try {
         $message .= $_POST['message'];
         
         $mail->setFrom('no-reply@begrimsical.com', 'BeGrimsical.com');
-        $mail->addAddress($email);
+        $mail->addAddress('begrimsical@gmail.com');
         $mail->addReplyTo($email, $name);
 
         $mail->isHTML(true);
