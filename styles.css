@@ -78,8 +78,12 @@ a {
     align-items: center;
 }
 
-.title-image {
+.title-image, .small-image {
     width: 100%;
+}
+
+.small-image {
+    display: none;
 }
 
 .main-links {
@@ -296,8 +300,13 @@ For inner content layout inside body-container
         margin-bottom: 0;
     }
 
-    .title-image {
+    .small-image {
         max-width: 380px;
+        display: block;
+    }
+
+    .title-image {
+        display: none;
     }
 
     .links-box {
