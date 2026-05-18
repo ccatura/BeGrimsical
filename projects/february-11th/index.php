@@ -3,6 +3,7 @@
     
 <head>
     <?php include "../../head.html"; ?>
+    <title>Grimsical Creations - Nothing Yet!</title>
 </head>
 
 <body>

@@ -3,6 +3,7 @@
 
 <head>
     <?php include "../../head.html"; ?>
+    <title>Be Grimsical! - Charlie's Microscopic Universe Panel Preview</title>
 </head>
 
 <body>

@@ -3,6 +3,7 @@
     
 <head>
     <?php include "../head.html"; ?>
+    <title>Grimsical Creations - Popular Products</title>
 </head>
 
 <body>
@@ -13,15 +14,17 @@
 
         <div class="body-container">
             <div class="inner-content">
-                <div class="inner-content-title">Charlie's Microscopic Universe Panels Preview</div>
-                <div class="inner-content-subtitle">March 16, 2026</div>
+                <div class="inner-content-title">Grimsical Creations - Popular Products</div>
+                <div class="inner-content-subtitle">Click on a product to go to TeePublic.com</div>
                 <div class="inner-content-gallery">
-                    <a href="https://lh3.googleusercontent.com/u/0/d/1xaHycloqtnzLvvFy_o7aARuXXI7GKRhH" target="_blank"><img class="preview-panel-image" src="https://lh3.googleusercontent.com/u/0/d/1xaHycloqtnzLvvFy_o7aARuXXI7GKRhH" alt=""></a>
-                    <a href="https://lh3.googleusercontent.com/u/0/d/1rmOtEL7wOeGHz9S_cgTeqXs3YPbt4mOW" target="_blank"><img class="preview-panel-image" src="https://lh3.googleusercontent.com/u/0/d/1rmOtEL7wOeGHz9S_cgTeqXs3YPbt4mOW" alt=""></a>
-                    <a href="https://lh3.googleusercontent.com/u/0/d/1zwGRmU1cnh0Cb02IHfkkyFuzCNgeNRi0" target="_blank"><img class="preview-panel-image" src="https://lh3.googleusercontent.com/u/0/d/1zwGRmU1cnh0Cb02IHfkkyFuzCNgeNRi0" alt=""></a>
-                    <a href="https://lh3.googleusercontent.com/u/0/d/1SBDdVoAzhUzVDrzSsEGmt3INzYDY61_4" target="_blank"><img class="preview-panel-image" src="https://lh3.googleusercontent.com/u/0/d/1SBDdVoAzhUzVDrzSsEGmt3INzYDY61_4" alt=""></a>
-                    <a href="https://lh3.googleusercontent.com/u/0/d/1R_eS2XhoqTDjASZjHXmdjHojcDRdtgn2" target="_blank"><img class="preview-panel-image" src="https://lh3.googleusercontent.com/u/0/d/1R_eS2XhoqTDjASZjHXmdjHojcDRdtgn2" alt=""></a>
-                    <a href="https://lh3.googleusercontent.com/u/0/d/1v8QeRxXJ0BJV2Vx7KKWsig_nSiPD2_jn" target="_blank"><img class="preview-panel-image" src="https://lh3.googleusercontent.com/u/0/d/1v8QeRxXJ0BJV2Vx7KKWsig_nSiPD2_jn" alt=""></a>
+                    <a href="https://www.teepublic.com/t-shirt/91403547-atom-charlies-microscopic-universe-branded?store_id=4414046" target="_blank"><img class="preview-panel-image" src="https://images.teepublic.com/derived/production/designs/91403547_0/1777501223/i_m:bi_production_blanks_ipv78ghaupktk9ogkdxg_1462829019,c_132_13_216x,s_630,q_90.jpg" alt=""></a>
+                    <a href="https://www.teepublic.com/t-shirt/90229279-ew-gross-people?store_id=4414046" target="_blank"><img class="preview-panel-image" src="https://images.teepublic.com/derived/production/designs/90229279_0/1775605604/i_m:bi_production_blanks_jaeeqnv4r8crsxalh03n_1571669489,c_0_0_470x,s_630,q_90.jpg" alt=""></a>
+                    <a href="https://www.teepublic.com/t-shirt/90577593-charlie-the-riveter?store_id=4414046" target="_blank"><img class="preview-panel-image" src="https://images.teepublic.com/derived/production/designs/90577593_0/1776169458/i_m:bi_production_blanks_jaeeqnv4r8crsxalh03n_1571669489,c_0_0_470x,s_630,q_90.jpg" alt=""></a>
+                    <a href="https://www.teepublic.com/t-shirt/92529184-retro-1980-vintage-80s-style-bubble-graphic?store_id=4414046" target="_blank"><img class="preview-panel-image" src="https://images.teepublic.com/derived/production/designs/92529184_0/1779117958/i_m:bi_production_blanks_eabj4jnnotiueowzmy6k_1462829019,c_0_0_470x,s_630,q_90.jpg" alt=""></a>
+                    <a href="https://www.teepublic.com/sticker/91072205-retro-1970-vintage-70s-style-bubble-graphic" target="_blank"><img class="preview-panel-image" src="https://images.teepublic.com/derived/production/designs/91072205_0/1776957320/i_m:pid_1918,bi_production_blanks_dwvfshnuawffombl173b_1490882115,c_s_auto,bc_ffffff,wmk,s_630,q_90.jpg" alt=""></a>
+                    <a href="https://www.teepublic.com/mug/90228781-atom" target="_blank"><img class="preview-panel-image" src="https://images.teepublic.com/derived/production/designs/90228781_2/1775604473/i_m:bi_production_blanks_w00xdkhjelyrnp8i8wxr_1466696262,c_230_160_x473,bc_0f7b47,s_630,q_90.jpg" alt=""></a>
+                    <a href="https://www.teepublic.com/sticker/90229057-sos-your-face" target="_blank"><img class="preview-panel-image" src="https://images.teepublic.com/derived/production/designs/90229057_2/1776093285/i_m:pid_1918,bi_production_blanks_dwvfshnuawffombl173b_1490882115,c_s_auto_br,bc_ffcc00,wmk,s_630,q_90.jpg" alt=""></a>
+                    <a href="https://www.teepublic.com/t-shirt/90285362-do-you-even-science?store_id=4414046" target="_blank"><img class="preview-panel-image" src="https://images.teepublic.com/derived/production/designs/90285362_0/1775681856/i_m:bi_production_blanks_mtl53ofohwq5goqjo9ke_1462829015,c_0_0_470x,s_630,q_90.jpg" alt=""></a>
 
                 </div>
             </div>

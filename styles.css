@@ -147,6 +147,7 @@ a {
 .preview-panel-image {
     width: 300px;
     margin-bottom: 1em;
+    border: var(--frame-borders) solid green;
 }
 
 .icon-small {
