@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    
 <head>
-    <?php include "../../head.html"; ?>
+    <?php include "../head.html"; ?>
 </head>
 
 <body>
 
     <div class="outer-container">
 
-    <?php include "../../header.html"; ?>
+    <?php include "../header.html"; ?>
 
         <div class="body-container">
             <div class="inner-content">
@@ -31,7 +31,7 @@
 
 
 
-    <?php include "../../popups.html"; ?>
+    <?php include "../popups.html"; ?>
 
 
         
