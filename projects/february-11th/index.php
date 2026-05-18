@@ -20,40 +20,9 @@
 <body>
 
     <div class="outer-container">
-        <div class="header-container">
 
-            <div class="title">
-                <a><img class="title-image" src="../../images/main_logo_001.png" alt="Be Grimsical!" id="temp-switch"></a>
-            </div>
-            <div class="main-links">
-                <!-- class must be 'links-box-outer-contatiner' and data-id must correspond with the popup-trans-bg's ID -->
-                <div class="links-box-outer-contatiner" data-id="projects"> <!-- This will open the 'projects' popup because of the data-id-->
-                    <div class="links-box">
-                        <img src="../../images/projects.jpg?v=2" alt="Projects">
-                    </div>
-                    <div class="links-font">Projects</div>
-                </div>
-                <div class="links-box-outer-contatiner" data-id="store">
-                    <div class="links-box">
-                        <img src="../../images/store.jpg?v=2" alt="Store">
-                    </div>
-                    <div class="links-font">Store</div>
-                </div>
-                <div class="links-box-outer-contatiner" data-id="contact">
-                    <div class="links-box">
-                        <img src="../../images/contact.jpg?v=2" alt="Contact">
-                    </div>
-                    <div class="links-font">Contact</div>
-                </div>          
-                <div class="links-box-outer-contatiner" data-id="social">
-                    <div class="links-box">
-                        <img src="../../images/links.jpg?v=2" alt="Social Links">
-                    </div>
-                    <div class="links-font">Social</div>
-                </div>
-            </div>
+        <?php include "../../header.html"; ?>
 
-        </div>
         <div class="body-container">
             <div class="inner-content">
                 <div class="inner-content-title">Charlie's Microscopic Universe Panels Preview</div>
