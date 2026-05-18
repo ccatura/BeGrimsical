@@ -37,47 +37,15 @@
 <body>
 
     <div class="outer-container">
-        <div class="header-container">
 
-            <div class="title">
-                <a><img class="title-image" src="./images/main_logo_001.png" alt="Grimsical Creations!" id="temp-switch"></a>
-                <a><img class="small-image" src="./images/smaller_logo_001.png" alt="Grimsical Creations!"></a>
-            </div>
-            <div class="main-links">
-                <!-- class must be 'links-box-outer-contatiner' and data-id must correspond with the popup-trans-bg's ID -->
-                <div class="links-box-outer-contatiner" data-id="projects"> <!-- This will open the 'projects' popup because of the data-id-->
-                    <div class="links-box">
-                        <img src="./images/projects.jpg?v=2" alt="Projects">
-                    </div>
-                    <div class="links-font">Projects</div>
-                </div>
-                <div class="links-box-outer-contatiner" data-id="store">
-                    <div class="links-box">
-                        <img src="./images/store.jpg?v=2" alt="Store">
-                    </div>
-                    <div class="links-font">Store</div>
-                </div>
-                <div class="links-box-outer-contatiner" data-id="contact">
-                    <div class="links-box">
-                        <img src="./images/contact.jpg?v=2" alt="Contact">
-                    </div>
-                    <div class="links-font">Contact</div>
-                </div>          
-                <div class="links-box-outer-contatiner" data-id="social">
-                    <div class="links-box">
-                        <img src="./images/links.jpg?v=2" alt="Social Links">
-                    </div>
-                    <div class="links-font">Social</div>
-                </div>
-            </div>
+    <?php include "./header.html"; ?>
 
-        </div>
         <div class="body-container">
             <div class="inner-content">
                 <h1 class="inner-content-title">Grimsical Creations: Charlie’s Microscopic Universe</h1>
                 <div class="inner-content-subtitle">Updated: May 12, 2026</div>
                 <div class="inner-content-centered">
-                    <img class="big-image" src="https://lh3.googleusercontent.com/u/0/d/1Hfs0lqT25IOJz_nyKWjOO2sa1UAxmQuo" alt="">
+                    <img class="big-image" src="./images/book-cover-001.jpg" alt="">
                 </div>
             </div>
         </div>
