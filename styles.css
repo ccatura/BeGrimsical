@@ -344,4 +344,9 @@ For inner content layout inside body-container
         margin-bottom: 1em;
         /* border: var(--frame-borders) solid green; */
     }
+
+    .big-image {
+        width: 100%;
+        height: auto;
+    }
 }
