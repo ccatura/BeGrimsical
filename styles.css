@@ -147,7 +147,7 @@ a {
 .preview-panel-image {
     width: 300px;
     margin-bottom: 1em;
-    border: var(--frame-borders) solid green;
+    /* border: var(--frame-borders) solid green; */
 }
 
 .rounded-shadow {
@@ -337,5 +337,11 @@ For inner content layout inside body-container
 
     .input-field-general {
         max-width: 250px;
+    }
+
+    .preview-panel-image {
+        width: 265px;
+        margin-bottom: 1em;
+        /* border: var(--frame-borders) solid green; */
     }
 }
