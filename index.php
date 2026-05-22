@@ -10,6 +10,7 @@
     <?php include "./header.html"; ?>
         <div class="body-container">
             <div class="inner-content">
+                <h1 class="inner-content-title"><a href="./email-list" class="alt-a">Join Our Mailing List</a><br><br></h1>
                 <h1 class="inner-content-title">Grimsical Creations: Charlie’s Microscopic Universe</h1>
                 <div class="inner-content-subtitle">Updated: May 12, 2026</div>
                 <div class="inner-content-centered">

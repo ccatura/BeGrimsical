@@ -28,6 +28,10 @@ a {
     text-decoration: none;
 }
 
+.alt-a {
+    text-shadow: 0 0 2px #000000, 0 0 4px #000000, 0 0 6px #000000, 0 0 6px #000000;
+}
+
 .outer-container {
     border: var(--frame-borders) solid green;
     width: 80%;
