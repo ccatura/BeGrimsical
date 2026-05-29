@@ -26,7 +26,6 @@
                     <a href="https://lh3.googleusercontent.com/u/0/d/1OCvN0Z2d11Vn9w2G9rZxxBDip-ZPvGj7" target="_blank"><img class="preview-panel-image rounded-shadow" src="https://lh3.googleusercontent.com/u/0/d/1OCvN0Z2d11Vn9w2G9rZxxBDip-ZPvGj7" alt=""></a>
 
 
-                    https://drive.google.com/file/d/1OCvN0Z2d11Vn9w2G9rZxxBDip-ZPvGj7/view?usp=sharing
                 </div>
             </div>
         </div>
