@@ -244,6 +244,11 @@ For inner content layout inside body-container
     width: 100%;
     background-color: rgb(144, 144, 144);
     padding: 1em;
+
+    background-image: url('/images/stars2.jpg'); /* The path to your file */
+    background-size: 500px auto;                      /* Scales the image to fill the space */
+    background-position: center top;                /* Centers the image perfectly */
+    background-repeat: repeat;               /* Stops the image from tiling */
 }
 
 .inner-content-title {
@@ -290,7 +295,11 @@ For inner content layout inside body-container
     width: 100%;
 }
 
-
+video {
+  border-radius: 10px;
+  background-color: #000;
+  outline: 4px;
+}
 
 
 
