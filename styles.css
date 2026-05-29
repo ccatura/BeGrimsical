@@ -159,6 +159,13 @@ p {
     height: 300px;
     margin-bottom: 1em;
     /* border: var(--frame-borders) solid green; */
+    overflow: hidden;
+}
+
+.preview-panel-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .rounded-shadow {
