@@ -150,6 +150,7 @@ a {
 
 .preview-panel-image {
     width: 300px;
+    height: 300px;
     margin-bottom: 1em;
     /* border: var(--frame-borders) solid green; */
 }
@@ -390,6 +391,7 @@ video {
 
     .preview-panel-image {
         width: 265px;
+        height: 265px;
         margin-bottom: 1em;
         /* border: var(--frame-borders) solid green; */
     }
