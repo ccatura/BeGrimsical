@@ -242,7 +242,7 @@ For inner content layout inside body-container
     align-items: flex-start;
     /* gap: 20px; */
     width: 100%;
-    background-color: rgb(144, 144, 144);
+    background-color: rgba(144, 144, 144, 0.5);
     padding: 1em;
 
     background-image: url('/images/stars2.jpg'); /* The path to your file */
@@ -295,14 +295,50 @@ For inner content layout inside body-container
     width: 100%;
 }
 
-video {
-  border-radius: 10px;
-  background-color: #000;
-  outline: 4px;
+.video-box {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 15px;
+    padding: 1em;
+}
+.video-footer {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
 }
 
+.video-icon {
+    /* border: 2px solid green; */
+    width: 50px;
+    height: 50px;
+}
 
+.video-icon img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border: 2px solid black;
+}
 
+.video-title {
+    /* border: 2px solid orange; */
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 1em;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+}
 
 
 
@@ -359,7 +395,11 @@ video {
     }
 
     .big-image {
-        width: 100%;
-        height: auto;
+        width: 50px;
+        height: 50px;
+    }
+
+    .video-title {
+        font-size: 1.5em;
     }
 }
