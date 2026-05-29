@@ -32,6 +32,12 @@ a {
     text-shadow: 0 0 2px #000000, 0 0 4px #000000, 0 0 6px #000000, 0 0 6px #000000;
 }
 
+p {
+    margin-bottom: 2em;
+    /* line-height: 1.5em; */
+    font-size: 1.5em;
+    padding: 0 3em;
+}
 .outer-container {
     border: var(--frame-borders) solid green;
     width: 80%;
@@ -70,7 +76,7 @@ a {
     justify-content: space-between;
     align-items: center;
     margin-top: auto;
-    /* height: 100px; */ /* substack iframe screwed it up */
+    height: 200px; 
 }
 
 .title {

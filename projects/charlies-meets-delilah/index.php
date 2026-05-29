@@ -23,7 +23,10 @@
                     <a href="https://lh3.googleusercontent.com/u/0/d/1SBDdVoAzhUzVDrzSsEGmt3INzYDY61_4" target="_blank"><img class="preview-panel-image rounded-shadow" src="https://lh3.googleusercontent.com/u/0/d/1SBDdVoAzhUzVDrzSsEGmt3INzYDY61_4" alt=""></a>
                     <a href="https://lh3.googleusercontent.com/u/0/d/1R_eS2XhoqTDjASZjHXmdjHojcDRdtgn2" target="_blank"><img class="preview-panel-image rounded-shadow" src="https://lh3.googleusercontent.com/u/0/d/1R_eS2XhoqTDjASZjHXmdjHojcDRdtgn2" alt=""></a>
                     <a href="https://lh3.googleusercontent.com/u/0/d/1v8QeRxXJ0BJV2Vx7KKWsig_nSiPD2_jn" target="_blank"><img class="preview-panel-image rounded-shadow" src="https://lh3.googleusercontent.com/u/0/d/1v8QeRxXJ0BJV2Vx7KKWsig_nSiPD2_jn" alt=""></a>
+                    <a href="https://lh3.googleusercontent.com/u/0/d/1OCvN0Z2d11Vn9w2G9rZxxBDip-ZPvGj7" target="_blank"><img class="preview-panel-image rounded-shadow" src="https://lh3.googleusercontent.com/u/0/d/1OCvN0Z2d11Vn9w2G9rZxxBDip-ZPvGj7" alt=""></a>
 
+
+                    https://drive.google.com/file/d/1OCvN0Z2d11Vn9w2G9rZxxBDip-ZPvGj7/view?usp=sharing
                 </div>
             </div>
         </div>

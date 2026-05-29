@@ -33,6 +33,12 @@
 
 <br><br>
 
+
+                <p>
+                    <em><b>Charlie's Microscopic Universe: Charlie Meets Delilah</b></em> is a grounded, slice-of-life graphic novel that follows Charlie, a 27-year-old aspiring astrophysicist, as she navigates a chaotic series of everyday hardships where everything goes wrong. Through her deep bond with Delilah and the vast perspective of the cosmos, she finds the comfort and resilience needed to face life's daily struggles.
+
+                    If you would like to get a preview of the book, <a href="./projects/charlies-meets-delilah">click here</a>.
+                </p>
                     <!-- <a href="./projects/charlies-meets-delilah"><img class="big-image rounded-shadow" src="./images/book-cover-001.jpg" alt=""></a> -->
                 </div>
             </div>
