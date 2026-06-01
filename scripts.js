@@ -1,6 +1,6 @@
 var socialLinksParents  = document.querySelectorAll(".popup-trans-bg");
 var socialLinksChilden  = document.querySelectorAll(".floating-popup-box");
-var topLinks            = document.querySelectorAll(".links-box-outer-contatiner");
+var topLinks            = document.querySelectorAll(".links-box-outer-container");
 
 // Email elements
 var goodToGo            = document.getElementById('good-to-go');
@@ -40,6 +40,10 @@ socialLinksChilden.forEach((child) => {
 topLinks.forEach((link) => {
     link.addEventListener("click", function() {
         document.getElementById(link.dataset.id).style.display = "flex"; // show the popup of the clicked link with matching id
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        })
         if (link.dataset.id === "contact") {
             clearInputs(); // Clear input fields when contact popup is opened
         };

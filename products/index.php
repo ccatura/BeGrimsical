@@ -35,7 +35,7 @@
 
 
 
-    <?php include "../popups.html"; ?>
+    <?php include "../popups.php"; ?>
 
 
         

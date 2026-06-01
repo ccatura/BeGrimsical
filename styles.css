@@ -37,6 +37,13 @@ p {
     /* line-height: 1.5em; */
     font-size: 1.5em;
     padding: 0 3em;
+    text-align: left;
+}
+
+.paragraph {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .outer-container {
@@ -109,7 +116,7 @@ p {
     margin-bottom: 1em;
 }
 
-.links-box-outer-contatiner {
+.links-box-outer-container {
     border: var(--frame-borders) solid green;
     display: flex;
     flex-direction: column;
@@ -414,7 +421,7 @@ video {
         outline: 3px solid black;
     }
 
-    .links-box-outer-contatiner {
+    .links-box-outer-container {
         padding: 00px 3px 10px 3px;
     } 
 
