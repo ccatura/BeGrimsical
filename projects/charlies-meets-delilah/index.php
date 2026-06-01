@@ -17,13 +17,38 @@
                 <div class="inner-content-title">Charlie's Microscopic Universe Panels Preview</div>
                 <div class="inner-content-subtitle">March 16, 2026</div>
                 <div class="inner-content-gallery">
-                    <a class="preview-panel-image rounded-shadow" href="https://lh3.googleusercontent.com/u/0/d/1OCvN0Z2d11Vn9w2G9rZxxBDip-ZPvGj7" target="_blank"><img src="https://lh3.googleusercontent.com/u/0/d/1OCvN0Z2d11Vn9w2G9rZxxBDip-ZPvGj7" alt=""></a>
-                    <a class="preview-panel-image rounded-shadow" href="https://lh3.googleusercontent.com/u/0/d/1xaHycloqtnzLvvFy_o7aARuXXI7GKRhH" target="_blank"><img src="https://lh3.googleusercontent.com/u/0/d/1xaHycloqtnzLvvFy_o7aARuXXI7GKRhH" alt=""></a>
-                    <a class="preview-panel-image rounded-shadow" href="https://lh3.googleusercontent.com/u/0/d/1rmOtEL7wOeGHz9S_cgTeqXs3YPbt4mOW" target="_blank"><img src="https://lh3.googleusercontent.com/u/0/d/1rmOtEL7wOeGHz9S_cgTeqXs3YPbt4mOW" alt=""></a>
-                    <a class="preview-panel-image rounded-shadow" href="https://lh3.googleusercontent.com/u/0/d/1zwGRmU1cnh0Cb02IHfkkyFuzCNgeNRi0" target="_blank"><img src="https://lh3.googleusercontent.com/u/0/d/1zwGRmU1cnh0Cb02IHfkkyFuzCNgeNRi0" alt=""></a>
-                    <a class="preview-panel-image rounded-shadow" href="https://lh3.googleusercontent.com/u/0/d/1SBDdVoAzhUzVDrzSsEGmt3INzYDY61_4" target="_blank"><img src="https://lh3.googleusercontent.com/u/0/d/1SBDdVoAzhUzVDrzSsEGmt3INzYDY61_4" alt=""></a>
-                    <a class="preview-panel-image rounded-shadow" href="https://lh3.googleusercontent.com/u/0/d/1R_eS2XhoqTDjASZjHXmdjHojcDRdtgn2" target="_blank"><img src="https://lh3.googleusercontent.com/u/0/d/1R_eS2XhoqTDjASZjHXmdjHojcDRdtgn2" alt=""></a>
-                    <a class="preview-panel-image rounded-shadow" href="https://lh3.googleusercontent.com/u/0/d/1v8QeRxXJ0BJV2Vx7KKWsig_nSiPD2_jn" target="_blank"><img src="https://lh3.googleusercontent.com/u/0/d/1v8QeRxXJ0BJV2Vx7KKWsig_nSiPD2_jn" alt=""></a>
+                    <a class="preview-panel-image rounded-shadow" href="/images/panels/_Charlie_Meets_Delilah_V2_-_A3-10.png" target="_blank"><img src="/images/panels/_Charlie_Meets_Delilah_V2_-_A3-10.png" alt=""></a>
+
+                    <a class="preview-panel-image rounded-shadow" href="/images/panels/_Charlie_Meets_Delilah_V2_-_A3-11.png" target="_blank"><img src="/images/panels/_Charlie_Meets_Delilah_V2_-_A3-11.png" alt=""></a>
+
+                    <a class="preview-panel-image rounded-shadow" href="/images/panels/_Charlie_Meets_Delilah_V2_-_A3-18.png" target="_blank"><img src="/images/panels/_Charlie_Meets_Delilah_V2_-_A3-18.png" alt=""></a>
+
+                    <a class="preview-panel-image rounded-shadow" href="/images/panels/_Charlie_Meets_Delilah_V2_-_A3-9.png" target="_blank"><img src="/images/panels/_Charlie_Meets_Delilah_V2_-_A3-9.png" alt=""></a>
+
+                    <a class="preview-panel-image rounded-shadow" href="/images/panels/_Charlie_Meets_Delilah_V2__-_D-18.png" target="_blank"><img src="/images/panels/_Charlie_Meets_Delilah_V2__-_D-18.png" alt=""></a>
+
+                    <a class="preview-panel-image rounded-shadow" href="/images/panels/_Charlie_Meets_Delilah_V2__-_D2-8.png" target="_blank"><img src="/images/panels/_Charlie_Meets_Delilah_V2__-_D2-8.png" alt=""></a>
+
+                    <a class="preview-panel-image rounded-shadow" href="/images/panels/_Charlie_Meets_Delilah_V2__-_E-7.png" target="_blank"><img src="/images/panels/_Charlie_Meets_Delilah_V2__-_E-7.png" alt=""></a>
+
+                    <a class="preview-panel-image rounded-shadow" href="/images/panels/_Charlie_Meets_Delilah_V2__-_F-5.png" target="_blank"><img src="/images/panels/_Charlie_Meets_Delilah_V2__-_F-5.png" alt=""></a>
+
+                    <a class="preview-panel-image rounded-shadow" href="/images/panels/_Charlie_Meets_Delilah_V2__-_K-12.png" target="_blank"><img src="/images/panels/_Charlie_Meets_Delilah_V2__-_K-12.png" alt=""></a>
+
+                    <a class="preview-panel-image rounded-shadow" href="/images/panels/_Charlie_Meets_Delilah_V2__-_K-8.png" target="_blank"><img src="/images/panels/_Charlie_Meets_Delilah_V2__-_K-8.png" alt=""></a>
+
+                    <a class="preview-panel-image rounded-shadow" href="/images/panels/book-cover-001.jpg" target="_blank"><img src="/images/panels/book-cover-001.jpg" alt=""></a>
+
+                    <a class="preview-panel-image rounded-shadow" href="/images/panels/Charlie's Microscopic Universe - Charlie Meets Delilah -56.jpg" target="_blank"><img src="/images/panels/Charlie's Microscopic Universe - Charlie Meets Delilah -56.jpg" alt=""></a>
+
+                    <a class="preview-panel-image rounded-shadow" href="/images/panels/Charlie's Microscopic Universe - Charlie Meets Delilah -6.jpg" target="_blank"><img src="/images/panels/Charlie's Microscopic Universe - Charlie Meets Delilah -6.jpg" alt=""></a>
+
+                    <a class="preview-panel-image rounded-shadow" href="/images/panels/Driving.png" target="_blank"><img src="/images/panels/Driving.png" alt=""></a>
+
+                    <a class="preview-panel-image rounded-shadow" href="/images/panels/Messy_apartment.png" target="_blank"><img src="/images/panels/Messy_apartment.png" alt=""></a>
+
+                    <a class="preview-panel-image rounded-shadow" href="/images/panels/panel_1_nighttime.png" target="_blank"><img src="/images/panels/panel_1_nighttime.png" alt=""></a>
+
 
 
                 </div>
