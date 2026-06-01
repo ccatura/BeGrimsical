@@ -22,7 +22,7 @@
 
 
 
-    <?php include "../popups.html"; ?> <!-- Popups from links in header -->
+    <?php include "../popups.php"; ?> <!-- Popups from links in header -->
 
     </div>
 
