@@ -6,8 +6,57 @@ var topLinks            = document.querySelectorAll(".links-box-outer-container"
 var goodToGo            = document.getElementById('good-to-go');
 var goodToGoInput       = document.getElementsByName('good-to-go');
 var sendEmailButton     = document.getElementById('send-email');
-
 var inputsToClear       = document.querySelectorAll('[data-id="clear-me"]');
+
+
+
+
+
+// This section is for the gallery popup
+//
+//
+//
+// gallery items
+var galleryItems            = document.querySelectorAll('#gallery .gallery-item');
+var galleryPopup            = document.getElementById('gallery-popup-outer-container');
+var galleryPopupImageSRC    = document.getElementById('gallery-popup-image-src'); // The empty image element inside the gallery popup
+var x = 0;
+
+if (galleryPopup) { // Check if the gallery popup exists on the page before adding event listeners
+    // Closes the gallery popup when the image is clicked
+        galleryPopupImageSRC.addEventListener('click', function() { 
+        galleryPopup.style.display = "none";
+    });
+
+    // Gallery
+    galleryItems.forEach((item) => {
+        if (item.classList.contains('gallery-item')) {
+            item.id = "gallery-item-" + x;
+            x++;
+        }
+    });
+
+    galleryItems.forEach((item) => {
+            // console.log("previous " + item.previousElementSibling?.src);
+            // console.log("Item SRC: " + item.src);
+            // console.log("next " + item.nextElementSibling?.src);
+            // console.log("\n\n");
+
+            item.addEventListener('click', function() {
+                galleryPopup.style.display = "flex";
+                galleryPopupImageSRC.src = item.src;
+            });
+    });
+}
+//
+//
+//
+//
+//
+// End of Gallery popup
+
+
+
 
 
 // After a short delay, this hides the contact popup after clicking send email so the form can be seen being submitted
