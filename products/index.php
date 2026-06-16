@@ -16,7 +16,7 @@
             <div class="inner-content">
                 <div class="inner-content-title">Grimsical Creations - Popular Products</div>
                 <div class="inner-content-subtitle">Click on a product to go to its store online</div>
-                <div class="inner-content-gallery">
+                <div class="gallery">
                     <a href="https://www.teepublic.com/t-shirt/91403547-atom-charlies-microscopic-universe-branded?store_id=4414046" target="_blank"><img class="preview-panel-image rounded-shadow" src="https://images.teepublic.com/derived/production/designs/91403547_0/1777501223/i_m:bi_production_blanks_ipv78ghaupktk9ogkdxg_1462829019,c_132_13_216x,s_630,q_90.jpg" alt=""></a>
                     <a href="https://www.teepublic.com/t-shirt/90229279-ew-gross-people?store_id=4414046" target="_blank"><img class="preview-panel-image rounded-shadow" src="https://images.teepublic.com/derived/production/designs/90229279_0/1775605604/i_m:bi_production_blanks_jaeeqnv4r8crsxalh03n_1571669489,c_0_0_470x,s_630,q_90.jpg" alt=""></a>
                     <a href="https://www.teepublic.com/t-shirt/90577593-charlie-the-riveter?store_id=4414046" target="_blank"><img class="preview-panel-image rounded-shadow" src="https://images.teepublic.com/derived/production/designs/90577593_0/1776169458/i_m:bi_production_blanks_jaeeqnv4r8crsxalh03n_1571669489,c_0_0_470x,s_630,q_90.jpg" alt=""></a>
