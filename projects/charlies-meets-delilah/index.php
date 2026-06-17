@@ -16,6 +16,24 @@
             <div class="inner-content">
                 <div class="inner-content-title">Charlie's Microscopic Universe Panels Preview</div>
                 <div class="inner-content-subtitle">March 16, 2026</div>
+
+
+                <div class="inner-content-centered">
+                    <div class="video-box">
+                        <video controls poster="/images/who-is-charlie.png" class="rounded-shadow">
+                            <source src="/videos/who-is-charlie.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="video-footer">
+                            <div class="video-icon"><img src="/images/profile.jpg" alt="Video Icon"></div>
+                            <div class="video-title">I Explain: Charlie’s Microscopic Universe</div>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+
+
+
                 <div class="gallery" id="gallery">
 
                     <img class="gallery-item preview-panel-image rounded-shadow" src="/images/panels/_Charlie_Meets_Delilah_V2_-_A3-10.png" alt="">
