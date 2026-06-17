@@ -25,7 +25,7 @@
                         </video>
                         <div class="video-footer">
                             <div class="video-icon"><img src="/images/profile.jpg" alt="Video Icon"></div>
-                            <div class="video-title">I Explain: Charlie’s Microscopic Universe</div>
+                            <div class="video-title">What is Charlie’s Microscopic Universe</div>
                         </div>
                     </div>
 

@@ -26,11 +26,19 @@
                         </video>
                         <div class="video-footer">
                             <div class="video-icon"><img src="/images/profile.jpg" alt="Video Icon"></div>
-                            <div class="video-title">I Explain: Charlie’s Microscopic Universe</div>
+                            <div class="video-title">Who is Charlie Newton?</div>
                         </div>
                     </div>
                 </div>
                 <br><br>
+
+                    <div class="paragraph">
+                        <p>
+                            In this video, I introduce my character Charlie Newton to the world. If you'd like to support this project, please visit my <a href="https://begrimsical.com/store">TeePublic store</a> for some <em><b>Charlie's Microscopic Universe</b></em>, and other merch!
+                        </p>
+                    </div>
+
+                    <br><br>
 
 
 
