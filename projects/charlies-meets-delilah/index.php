@@ -15,7 +15,7 @@
         <div class="body-container">
             <div class="inner-content">
                 <div class="inner-content-title">Charlie's Microscopic Universe Panels Preview</div>
-                <div class="inner-content-subtitle">March 16, 2026</div>
+                <div class="inner-content-subtitle"></div>
 
 
                 <div class="inner-content-centered">
